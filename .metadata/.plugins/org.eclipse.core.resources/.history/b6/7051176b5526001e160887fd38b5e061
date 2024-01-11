@@ -1,0 +1,11 @@
+package com.jtcindia.Hibernate;
+public class App {
+	public static void main(String[] args) {
+		StudentDAO studentdao = new StudentDAOImp();
+		PersonalInfo info = new PersonalInfo("vivek","Mr.Umesh Singh","Mrs. Savita Singh","Farmer");
+		Student stud = new Student("","",info );
+		studentdao.insert(stud, info);
+		
+		
+	}
+}

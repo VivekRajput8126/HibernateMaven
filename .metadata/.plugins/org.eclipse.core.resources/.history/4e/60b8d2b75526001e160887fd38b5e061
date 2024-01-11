@@ -1,0 +1,64 @@
+package com.jtcindia.Hibernate;
+import javax.persistence.*;
+
+@Entity
+@Table(name="Students")
+public class Student {
+	private int sid;
+	private String sname;
+	private String Class_$_Section;
+	@Embedded
+	@AttributeOverrides({@AttributeOverride(name="studInfo", column = @Column(name="spiname")),
+						 @AttributeOverride(name="stud_father",column = @Column(name="father_name")),
+						 @AttributeOverride(name="stud_mother",column = @Column(name="Mother_name")),
+						 @AttributeOverride(name="fathers_occupation",column = @Column(name="Occupation"))})
+	private PersonalInfo personalInfo;
+
+	public Student() {
+	}
+
+	public Student(String sname, String class_$_Section, PersonalInfo personalInfo) {
+		this.sname = sname;
+		Class_$_Section = class_$_Section;
+		this.personalInfo = personalInfo;
+	}
+
+	public int getSid() {
+		return sid;
+	}
+
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+
+	public String getSname() {
+		return sname;
+	}
+
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+
+	public String getClass_$_Section() {
+		return Class_$_Section;
+	}
+
+	public void setClass_$_Section(String class_$_Section) {
+		Class_$_Section = class_$_Section;
+	}
+
+	public PersonalInfo getPersonalInfo() {
+		return personalInfo;
+	}
+
+	public void setPersonalInfo(PersonalInfo personalInfo) {
+		this.personalInfo = personalInfo;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [sid=" + sid + ", sname=" + sname + ", Class_$_Section=" + Class_$_Section + ", personalInfo="
+				+ personalInfo + "]";
+	}
+
+}

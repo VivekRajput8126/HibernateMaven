@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Program\HibernateMaven\Project2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Hello.ProjectforPractise19"/>
+			<item value="Hello.project17_Embbeded"/>
+			<item value="Hello.Project16_DAO"/>
+			<item value="Hello.Student"/>
+			<item value="Hello.Project15_ManyToMany"/>
+			<item value="com.jtcindia.Hibernate"/>
+			<item value="com.jtcindia.hibernate"/>
+			<item value="Hello.Project12_OneToOne_Bidirectional"/>
+			<item value="com.jtcindia.Hinernate"/>
+			<item value="Hello.Project5"/>
+			<item value="Hello.Project4_CollectionMapping"/>
+			<item value="com.jtcindia.Hibenate"/>
+			<item value="com.hibernate.mavenproject"/>
+		</list>
+		<list key="groupId">
+			<item value="Hello"/>
+			<item value="Student"/>
+			<item value="project2"/>
+			<item value="HibernateProject"/>
+		</list>
+		<list key="artifactId">
+			<item value="ProjectforPractise19"/>
+			<item value="project17_Embbeded"/>
+			<item value="Project16_DAO"/>
+			<item value="Student"/>
+			<item value="Project15_ManyToMany"/>
+			<item value="Project14_OneToMany"/>
+			<item value="Project13_OneToMany"/>
+			<item value="Project12_OneToOne_Bidirectional"/>
+			<item value="Project11_OneToOne"/>
+			<item value="Project10_TablePerConcreteClass"/>
+			<item value="Project9_tableperclass"/>
+			<item value="Project8_TablePerSubclass"/>
+			<item value="Project7_Inheritance"/>
+			<item value="Project6_Inheritance"/>
+			<item value="Project5"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

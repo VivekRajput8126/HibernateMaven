@@ -1,0 +1,14 @@
+package com.jtcindia.Hibernate;
+
+public class CurrentCustomer extends Customer{
+	private String ccname;
+	private String cemail;
+	private int cphone;
+	public CurrentCustomer(String cname,String email,String ccname,String cemail,int cphone) {
+		super(cname,email);
+		this.ccname=ccname;
+		this.cemail=cemail;
+		this.cphone=cphone;
+	}
+	
+}
